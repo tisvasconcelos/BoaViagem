@@ -31,9 +31,7 @@
             android:textColor="#FFFFFF"
             android:textStyle="bold"
             />
-        
-        <TextView />
-        
+          
         <TextView 
             android:id="@+id/nova_viagem"
             android:layout_width="wrap_content"
