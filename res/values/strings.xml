@@ -24,5 +24,8 @@
     <string name="quantidade_pessoas">Quantidade de Pessoas</string>
     <string name="salvar">Salvar</string>
     
+    <string name="valor">Valor</string>
+    <string name="data">Data</string>
+    
 
 </resources>
