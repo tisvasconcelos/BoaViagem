@@ -29,12 +29,20 @@ public final class R {
         public static final int novo_gasto=0x7f020005;
     }
     public static final class id {
-        public static final int action_settings=0x7f080006;
+        public static final int action_settings=0x7f08000e;
         public static final int configuracoes=0x7f080003;
+        public static final int dataChegada=0x7f08000a;
+        public static final int dataSaida=0x7f08000b;
+        public static final int destino=0x7f080006;
+        public static final int lazer=0x7f080008;
         public static final int minhas_viagens=0x7f080002;
+        public static final int negocios=0x7f080009;
         public static final int nova_viagem=0x7f080001;
         public static final int novo_gasto=0x7f080000;
+        public static final int orcamento=0x7f08000c;
+        public static final int quantidade_pessoas=0x7f08000d;
         public static final int senha=0x7f080005;
+        public static final int tipoViagem=0x7f080007;
         public static final int usuario=0x7f080004;
     }
     public static final class layout {
@@ -50,13 +58,23 @@ public final class R {
         public static final int action_settings=0x7f050001;
         public static final int app_name=0x7f050000;
         public static final int configuracoes=0x7f050005;
+        public static final int dataChegada=0x7f05000f;
+        public static final int dataSaida=0x7f050010;
+        public static final int destino=0x7f05000b;
         public static final int entrar=0x7f05000a;
         public static final int erro_autenticacao=0x7f050003;
         public static final int hello_world=0x7f050002;
+        public static final int lazer=0x7f05000d;
         public static final int minhas_viagens=0x7f050007;
+        public static final int negocios=0x7f05000e;
         public static final int nova_viagem=0x7f050004;
         public static final int novo_gasto=0x7f050006;
+        public static final int orcamento=0x7f050011;
+        public static final int quantidade_pessoas=0x7f050013;
+        public static final int salvar=0x7f050014;
+        public static final int selecione=0x7f050012;
         public static final int senha=0x7f050009;
+        public static final int tipo_da_viagem=0x7f05000c;
         public static final int usuario=0x7f050008;
     }
     public static final class style {

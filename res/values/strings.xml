@@ -12,5 +12,17 @@
     <string name="usuario">Usuário</string>
     <string name="senha">Senha</string>
     <string name="entrar">Entrar</string>
+    
+    <string name="destino">Destino</string>
+    <string name="tipo_da_viagem">Tipo de Viagem</string>
+    <string name="lazer">Lazer</string>
+    <string name="negocios">Negócios</string>
+    <string name="dataChegada">Data da Chegada</string>
+    <string name="dataSaida">Data da Saída</string>
+    <string name="orcamento">Orçamento</string>
+    <string name="selecione">Selecione</string>
+    <string name="quantidade_pessoas">Quantidade de Pessoas</string>
+    <string name="salvar">Salvar</string>
+    
 
 </resources>
