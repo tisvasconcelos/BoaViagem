@@ -1,19 +1,15 @@
 package br.com.casadocodigo.boaviagem;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import android.app.ListActivity;
-import android.database.Cursor;
 import android.os.Bundle;
-import android.support.v4.widget.SimpleCursorAdapter.ViewBinder;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;

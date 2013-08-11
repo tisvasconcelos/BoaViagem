@@ -41,7 +41,7 @@ public final class R {
         public static final int novo_gasto=0x7f020007;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a0013;
+        public static final int action_settings=0x7f0a0014;
         public static final int categoria=0x7f0a0004;
         public static final int configuracoes=0x7f0a0003;
         public static final int data=0x7f0a0006;
@@ -57,6 +57,8 @@ public final class R {
         public static final int novo_gasto=0x7f0a0000;
         public static final int orcamento=0x7f0a0011;
         public static final int quantidade_pessoas=0x7f0a0012;
+        public static final int remover=0x7f0a0015;
+        public static final int sair=0x7f0a0013;
         public static final int senha=0x7f0a000c;
         public static final int tipoViagem=0x7f0a0009;
         public static final int usuario=0x7f0a000b;
@@ -72,7 +74,9 @@ public final class R {
         public static final int nova_viagem=0x7f030006;
     }
     public static final class menu {
-        public static final int main=0x7f090000;
+        public static final int dashboard_menu=0x7f090000;
+        public static final int main=0x7f090001;
+        public static final int viagem_menu=0x7f090002;
     }
     public static final class string {
         public static final int action_settings=0x7f060001;
@@ -96,6 +100,8 @@ public final class R {
         public static final int novo_gasto=0x7f060006;
         public static final int orcamento=0x7f060011;
         public static final int quantidade_pessoas=0x7f060013;
+        public static final int remover_viagem=0x7f06001c;
+        public static final int sair=0x7f06001b;
         public static final int salvar=0x7f060014;
         public static final int selecione=0x7f060012;
         public static final int senha=0x7f060009;
