@@ -41,7 +41,7 @@ public final class R {
         public static final int novo_gasto=0x7f020007;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a0014;
+        public static final int action_settings=0x7f0a0015;
         public static final int categoria=0x7f0a0004;
         public static final int configuracoes=0x7f0a0003;
         public static final int data=0x7f0a0006;
@@ -57,7 +57,7 @@ public final class R {
         public static final int novo_gasto=0x7f0a0000;
         public static final int orcamento=0x7f0a0011;
         public static final int quantidade_pessoas=0x7f0a0012;
-        public static final int remover=0x7f0a0015;
+        public static final int remover=0x7f0a0014;
         public static final int sair=0x7f0a0013;
         public static final int senha=0x7f0a000c;
         public static final int tipoViagem=0x7f0a0009;
@@ -75,36 +75,44 @@ public final class R {
     }
     public static final class menu {
         public static final int dashboard_menu=0x7f090000;
-        public static final int main=0x7f090001;
-        public static final int viagem_menu=0x7f090002;
+        public static final int gasto_menu=0x7f090001;
+        public static final int main=0x7f090002;
+        public static final int viagem_menu=0x7f090003;
     }
     public static final class string {
         public static final int action_settings=0x7f060001;
         public static final int app_name=0x7f060000;
         public static final int categoria=0x7f06001a;
         public static final int configuracoes=0x7f060005;
+        public static final int confirmacao_exclusao_viagem=0x7f060021;
         public static final int data=0x7f060016;
         public static final int dataChegada=0x7f06000f;
         public static final int dataSaida=0x7f060010;
         public static final int descricao=0x7f060018;
         public static final int destino=0x7f06000b;
+        public static final int editar=0x7f06001e;
         public static final int entrar=0x7f06000a;
         public static final int erro_autenticacao=0x7f060003;
         public static final int gastei=0x7f060019;
+        public static final int gastos_realizados=0x7f06001f;
         public static final int hello_world=0x7f060002;
         public static final int lazer=0x7f06000d;
         public static final int local=0x7f060017;
         public static final int minhas_viagens=0x7f060007;
+        public static final int nao=0x7f060023;
         public static final int negocios=0x7f06000e;
         public static final int nova_viagem=0x7f060004;
         public static final int novo_gasto=0x7f060006;
+        public static final int opcoes=0x7f060020;
         public static final int orcamento=0x7f060011;
         public static final int quantidade_pessoas=0x7f060013;
+        public static final int remover=0x7f06001d;
         public static final int remover_viagem=0x7f06001c;
         public static final int sair=0x7f06001b;
         public static final int salvar=0x7f060014;
         public static final int selecione=0x7f060012;
         public static final int senha=0x7f060009;
+        public static final int sim=0x7f060022;
         public static final int tipo_da_viagem=0x7f06000c;
         public static final int usuario=0x7f060008;
         public static final int valor=0x7f060015;

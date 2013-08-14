@@ -7,8 +7,13 @@ import java.util.Map;
 
 import android.app.ListActivity;
 import android.os.Bundle;
+import android.view.ContextMenu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
+import android.view.ContextMenu.ContextMenuInfo;
 import android.widget.AdapterView;
+import android.widget.AdapterView.AdapterContextMenuInfo;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
@@ -33,6 +38,8 @@ public class GastoListActivity extends ListActivity implements OnItemClickListen
 		setListAdapter(adapter);
 		ListView listView = this.getListView();
 		listView.setOnItemClickListener(this);
+		
+		registerForContextMenu(getListView());
 	}
 	
 	@Override
@@ -116,6 +123,25 @@ public class GastoListActivity extends ListActivity implements OnItemClickListen
 		}				
 	}
 
+
 	
+	@Override
+	public void onCreateContextMenu(ContextMenu menu, View v, ContextMenuInfo menuInfo) {
+		MenuInflater inflater = this.getMenuInflater();
+		inflater.inflate(R.menu.gasto_menu, menu);
+	}
+	
+	@Override
+	public boolean onContextItemSelected(MenuItem item) {
+		if(item.getItemId() == R.id.remover) {
+			AdapterContextMenuInfo adapter = (AdapterContextMenuInfo)item.getMenuInfo();
+			gastos.remove(adapter.position);
+			getListView().invalidateViews();
+			dataAnterior = "";
+			//remover bd
+			return true;
+		}
+		return super.onContextItemSelected(item);
+	}
 	
 }
