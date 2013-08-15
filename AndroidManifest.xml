@@ -27,6 +27,7 @@
         <activity android:name="br.com.casadocodigo.boaviagem.GastoActivity"></activity>
         <activity android:name="br.com.casadocodigo.boaviagem.ViagemListActivity"></activity>
         <activity android:name="br.com.casadocodigo.boaviagem.GastoListActivity"></activity>
+        <activity android:name="br.com.casadocodigo.boaviagem.ConfiguracoesActivity"></activity>
     </application>
 
 </manifest>
